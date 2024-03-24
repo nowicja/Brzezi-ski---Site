@@ -6,14 +6,22 @@ import mail from '../../assets/mail.png';
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
-
+  const [max, setMax] = useState(false);
+  
   useEffect(() => {
     const handleScroll = () => {
       const offset = window.scrollY;
-      if (offset > 60) {
+      if (offset > 200) {
         setScrolled(true);
-      } else {
+      } 
+      else {
         setScrolled(false);
+      }
+      if (offset > 400) {
+        setMax(true);
+      } 
+      else {
+        setMax(false);
       }
     };
 
@@ -25,7 +33,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className={`container ${scrolled ? 'scrolled' : ''}`}>
+    <nav className={`container ${scrolled ? 'scrolled' : ''} ${max ? 'max' : ''}`}>
       <div className="nav_contact">
         <div className="phone">
           <img src={phone} alt="" />

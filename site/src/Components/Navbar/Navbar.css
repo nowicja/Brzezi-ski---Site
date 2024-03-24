@@ -14,12 +14,15 @@ nav {
     transition: background-color 1s ease;
 }
 .scrolled {
-    background-color: rgb(8,0,58, 0.3);
+    background-color: rgb(8,0,58, 0.5);
+}
+.max {
+    background-color: rgb(8,0,58, 1);
 }
 .logo {
-    width: 180px;
+    width: 250px;
     position: absolute;
-    top: 50%;
+    top: 90%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
