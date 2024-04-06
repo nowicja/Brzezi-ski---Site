@@ -10,21 +10,17 @@ nav {
     justify-content: space-between;
     z-index: 10;
     height: 10%;
-    background-color: rgba(8,0,58, 0);
+    background-color: rgba(7, 50, 83, 0);
     transition: background-color 1s ease;
 }
 .scrolled {
-    background-color: rgb(8,0,58, 0.5);
+    background-color: rgba(7, 50, 83, 0.5);
 }
 .max {
-    background-color: rgb(8,0,58, 1);
+    background-color: rgba(7, 50, 83, 1);
 }
 .logo {
-    width: 250px;
-    position: absolute;
-    top: 90%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    width: 200px;
 }
 
 nav ul li {

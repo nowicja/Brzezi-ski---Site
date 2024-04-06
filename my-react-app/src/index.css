@@ -18,13 +18,13 @@ a {
 }
 
 .btn {
-  background: #fcd95b;
+  background: rgb(58,137,191);
   border-radius: 30px;
   padding: 14px 25px;
   font-size: 16px;
   cursor: pointer;
   border: 0;
   outline: 0;
-  color: #3090C7;
+  color: #FFFFFF;
   font-weight: 800;
 }

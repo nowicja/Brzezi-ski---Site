@@ -1,0 +1,16 @@
+.slider {
+    width: 100%;
+    min-height: 30vh;
+    max-height: 30vh;
+    background: linear-gradient(rgba(8,0,58,0.7),rgba(8,0,58,0.7)), url(../../assets/kuchnia.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider img {
+    width: 300px;
+    height: auto;
+}
