@@ -1,8 +1,72 @@
 .contact {
     width: 100%;
     min-height: 100vh;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(29,52,253,1) 1%, rgba(252,176,69,1) 60%);
+    
+    background-size: cover;
+    background-position: center;
+}
+.sector {
+    display: flex;
+    flex-direction: row;
+    background: rgba(29,52,253, 0.5);
+    padding: 0;
+    
+}
+.contact_form {
+    padding: 2rem;
+    max-height: 50vh;
+    color: white;
+    font-weight: 200px;
+    font-size: 20px;
 }
 .contact_form .form {
     display:flex;
     flex-direction: column;
+}
+iframe {
+    height: 50vh;
+    
+}
+.contact_form p {
+    color: white;
+    font-weight: 400;
+}
+.button {
+    color: white;
+    border:none;
+    background-color: rgba(248,210,58, 40%);
+    border-radius: 2rem;
+    margin-top: 10px;
+    cursor: pointer;
+}
+input::placeholder {
+    color: white;
+    font-weight: lighter;
+}
+textarea::placeholder {
+    color: white;
+    font-weight: lighter;
+}
+input {
+    width: 300px;
+    padding: 1rem;
+    border: none;
+    font-weight: 500;
+    border-bottom: 1px dashed rgb(59,143,198);
+    background-color: transparent;
+}
+textarea {
+    width: 300px;
+    padding: 1rem;
+    border: none;
+    font-weight: 500;
+    border-bottom: 1px dashed rgb(59,143,198);
+    background-color: transparent;
+    resize: none;
+    color: white;
 }
