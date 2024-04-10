@@ -6,6 +6,7 @@ function ContactForm() {
     fname: '',
     lname: '',
     email: '',
+    phone: '',
     message: ''
   });
 
@@ -36,7 +37,10 @@ function ContactForm() {
                         <input placeholder='Nazwisko' type="text" name="lname" value={form.lname} onChange={handleChange} />
                     </label>
                     <label>
-                        <input placeholder='E-mail' type="email" name="email" value={form.email} onChange={handleChange} />
+                        <input placeholder='Telefon' type="text" name="phone" value={form.phone} onChange={handleChange} />
+                    </label>
+                    <label>
+                        <input className='input' placeholder='E-mail' type="email" name="email" value={form.email} onChange={handleChange} />
                     </label>
                     <label>
                         <textarea placeholder='Wiadomość' name="message" value={form.message} onChange={handleChange} />
