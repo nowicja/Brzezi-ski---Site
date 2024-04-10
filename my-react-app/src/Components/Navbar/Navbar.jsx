@@ -3,6 +3,7 @@ import './Navbar.css';
 import logo from '../../assets/logo.png';
 import phone from '../../assets/phone.png';
 import mail from '../../assets/mail.png';
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -44,9 +45,9 @@ const Navbar = () => {
           <p>bartosz.brzezinski12@gmail.com</p>
         </div>
       </div>
-      <img src={logo} alt="" className="logo" />
+      <Link to="/"><img src={logo} alt="" className="logo" /></Link>
       <ul>
-        <li>Projekty</li>
+        <Link to="/projects"><li>Projekty</li></Link>
         <li>
           <button className="btn">Kontakt</button>
         </li>
